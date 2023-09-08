@@ -8,7 +8,7 @@ int main() {
     cout<<"Enter two numbers to conduct mathematical operations:";
     cin>>n1>>n2;
 
-    cout<<"Enter an operation:\n + for addition,\n - for subtraction,\n * for multiplication,\n / for division,\n 'abs' for absolute value function): ";
+    cout<<"Enter an operation:\n + for addition,\n - for subtraction,\n * for multiplication,\n / for division,\n | for absolute value function): ";
     cin>>operation;
 
     switch (operation) {
@@ -27,7 +27,7 @@ int main() {
 			else {
                 cout <<"Division by zero is impossible."<<endl;}
             break;
-        case 'abs' or 'ABS':
+        case '|':
             cout <<"Absolute value of num1: "<<abs(n1)<<endl;
             cout <<"Absolute value of num2: "<<abs(n2)<<endl;
             break;
@@ -37,3 +37,4 @@ int main() {
 
     return 0;
 }
+
